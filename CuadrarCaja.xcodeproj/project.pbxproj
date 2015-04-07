@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC7E19221AC78708002EAC3F /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7E19211AC78708002EAC3F /* Images-2.xcassets */; };
+		FC7E19241AC78EB0002EAC3F /* 640x1136($).png in Resources */ = {isa = PBXBuildFile; fileRef = FC7E19231AC78EB0002EAC3F /* 640x1136($).png */; };
 		FCF547C01ABB37F000AA6BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF547BF1ABB37F000AA6BEF /* AppDelegate.swift */; };
 		FCF547C21ABB37F000AA6BEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF547C11ABB37F000AA6BEF /* ViewController.swift */; };
 		FCF547C51ABB37F000AA6BEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF547C31ABB37F000AA6BEF /* Main.storyboard */; };
-		FCF547C71ABB37F000AA6BEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF547C61ABB37F000AA6BEF /* Images.xcassets */; };
 		FCF547CA1ABB37F000AA6BEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF547C81ABB37F000AA6BEF /* LaunchScreen.xib */; };
 		FCF547D61ABB37F000AA6BEF /* CuadrarCajaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF547D51ABB37F000AA6BEF /* CuadrarCajaTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,12 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC7E19211AC78708002EAC3F /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		FC7E19231AC78EB0002EAC3F /* 640x1136($).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "640x1136($).png"; sourceTree = "<group>"; };
 		FCF547BA1ABB37F000AA6BEF /* CuadrarCaja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuadrarCaja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF547BE1ABB37F000AA6BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCF547BF1ABB37F000AA6BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCF547C11ABB37F000AA6BEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCF547C41ABB37F000AA6BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCF547C61ABB37F000AA6BEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCF547C91ABB37F000AA6BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FCF547CF1ABB37F000AA6BEF /* CuadrarCajaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuadrarCajaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF547D41ABB37F000AA6BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		FCF547B11ABB37F000AA6BEF = {
 			isa = PBXGroup;
 			children = (
+				FC7E19231AC78EB0002EAC3F /* 640x1136($).png */,
 				FCF547BC1ABB37F000AA6BEF /* CuadrarCaja */,
 				FCF547D21ABB37F000AA6BEF /* CuadrarCajaTests */,
 				FCF547BB1ABB37F000AA6BEF /* Products */,
@@ -80,8 +83,8 @@
 				FCF547BF1ABB37F000AA6BEF /* AppDelegate.swift */,
 				FCF547C11ABB37F000AA6BEF /* ViewController.swift */,
 				FCF547C31ABB37F000AA6BEF /* Main.storyboard */,
-				FCF547C61ABB37F000AA6BEF /* Images.xcassets */,
 				FCF547C81ABB37F000AA6BEF /* LaunchScreen.xib */,
+				FC7E19211AC78708002EAC3F /* Images-2.xcassets */,
 				FCF547BD1ABB37F000AA6BEF /* Supporting Files */,
 			);
 			path = CuadrarCaja;
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					FCF547B91ABB37F000AA6BEF = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = Y3H4M75RXF;
 					};
 					FCF547CE1ABB37F000AA6BEF = {
 						CreatedOnToolsVersion = 6.2;
@@ -192,9 +196,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7E19241AC78EB0002EAC3F /* 640x1136($).png in Resources */,
 				FCF547C51ABB37F000AA6BEF /* Main.storyboard in Resources */,
 				FCF547CA1ABB37F000AA6BEF /* LaunchScreen.xib in Resources */,
-				FCF547C71ABB37F000AA6BEF /* Images.xcassets in Resources */,
+				FC7E19221AC78708002EAC3F /* Images-2.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +343,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CuadrarCaja/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,7 +355,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CuadrarCaja/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +416,7 @@
 				FCF547DB1ABB37F000AA6BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCF547DC1ABB37F000AA6BEF /* Build configuration list for PBXNativeTarget "CuadrarCajaTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +425,7 @@
 				FCF547DE1ABB37F000AA6BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
