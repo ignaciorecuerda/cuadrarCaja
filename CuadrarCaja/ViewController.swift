@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let tapGestureRecognizer : UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "esconder")
+        
+        self.view.addGestureRecognizer(tapGestureRecognizer)
     }
 
     override func didReceiveMemoryWarning() {
@@ -219,8 +222,8 @@ class ViewController: UIViewController {
         
         totalSinCambio = Double(cantidad500) + Double(cantidad200) + Double(cantidad100) + Double(cantidad50) + Double(cantidad20) + Double(cantidad10) + Double(cantidad5) + Double(cantidad2) + Double(cantidad1) + cantidad050 + cantidad020 + cantidad010 + cantidad005 + cantidad002 + cantidad001 - dineroVentas
 
-        textCuadreCaja.text = NSString(format:"%.2f", total)
-        textCuadreCajaCambio.text = NSString(format:"%.2f",totalSinCambio)
+        textCuadreCaja.text = NSString(format:"%.2f", total) as String
+        textCuadreCajaCambio.text = NSString(format:"%.2f",totalSinCambio) as String
         
         if total < 0{
             textCuadreCaja.textColor = UIColor.redColor()
@@ -432,6 +435,31 @@ class ViewController: UIViewController {
         cuadrarCaja()
     }
     
+    
+    ////////////////////////////////////////////////
+    ////        Esconder teclado                ////
+    ////////////////////////////////////////////////
+    func esconder(){
+        self.textVentas.resignFirstResponder()
+        self.textCambio.resignFirstResponder()
+        self.unidad500.resignFirstResponder()
+        self.unidad200.resignFirstResponder()
+        self.unidad100.resignFirstResponder()
+        self.unidad50.resignFirstResponder()
+        self.unidad20.resignFirstResponder()
+        self.unidad10.resignFirstResponder()
+        self.unidad5.resignFirstResponder()
+        self.unidad2.resignFirstResponder()
+        self.unidad1.resignFirstResponder()
+        self.unidad050.resignFirstResponder()
+        self.unidad020.resignFirstResponder()
+        self.unidad010.resignFirstResponder()
+        self.unidad005.resignFirstResponder()
+        self.unidad002.resignFirstResponder()
+        self.unidad001.resignFirstResponder()
+        
+        if
+    }
     
     @IBOutlet weak var textVentas: UITextField!
     @IBOutlet weak var textCambio: UITextField!
