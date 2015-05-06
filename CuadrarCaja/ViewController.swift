@@ -457,6 +457,8 @@ class ViewController: UIViewController {
         self.unidad005.resignFirstResponder()
         self.unidad002.resignFirstResponder()
         self.unidad001.resignFirstResponder()
+        
+        cuadrarCaja()
     }
     
     @IBOutlet weak var textVentas: UITextField!

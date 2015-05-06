@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CuadrarCaja/ViewController.swift"
-            timestampString = "452603639.54462"
+            timestampString = "452608755.762908"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "462"
-            endingLineNumber = "462"
+            startingLineNumber = "464"
+            endingLineNumber = "464"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>
