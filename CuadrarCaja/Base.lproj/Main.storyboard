@@ -17,15 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MDR-pN-UO6">
-                                <rect key="frame" x="75" y="28" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="borrarVentas" destination="BYZ-38-t0r" eventType="touchDown" id="28v-5t-m0P"/>
-                                    <action selector="cambioVentas" destination="BYZ-38-t0r" eventType="editingChanged" id="udu-0c-TGw"/>
-                                </connections>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ventas:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhR-Tf-F70">
                                 <rect key="frame" x="9" y="31" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -41,7 +32,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="100" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aZ7-Q2-3rl">
                                 <rect key="frame" x="75" y="66" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarCambio" destination="BYZ-38-t0r" eventType="touchDown" id="xqf-Ri-v6b"/>
                                 </connections>
@@ -133,7 +124,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LWI-yL-Gda">
                                 <rect key="frame" x="51" y="101" width="48" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="51" y="102" width="48" height="30"/>
                                 </variation>
@@ -145,7 +136,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="skj-QU-BSy">
                                 <rect key="frame" x="51" y="138" width="48" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText200" destination="BYZ-38-t0r" eventType="touchDown" id="y6b-cS-oS8"/>
                                     <action selector="cambioText200" destination="BYZ-38-t0r" eventType="editingChanged" id="toQ-dB-tU4"/>
@@ -154,16 +145,25 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ng1-9v-xFs">
                                 <rect key="frame" x="51" y="176" width="48" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText100" destination="BYZ-38-t0r" eventType="touchDown" id="25u-W1-ehf"/>
                                     <action selector="cambioText100" destination="BYZ-38-t0r" eventType="editingChanged" id="myi-8v-xQi"/>
                                 </connections>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1mo-5H-YcG">
+                                <rect key="frame" x="51" y="213" width="48" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="borrarText50" destination="BYZ-38-t0r" eventType="touchDown" id="vvZ-sP-Nri"/>
+                                    <action selector="cambioText50" destination="BYZ-38-t0r" eventType="editingChanged" id="2hd-Ta-clF"/>
+                                </connections>
+                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wh7-Pb-lMz">
                                 <rect key="frame" x="51" y="250" width="48" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText20" destination="BYZ-38-t0r" eventType="touchDown" id="4Iy-yk-281"/>
                                     <action selector="cambioText20" destination="BYZ-38-t0r" eventType="editingChanged" id="e27-VE-G9S"/>
@@ -172,7 +172,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QoE-Vi-4aD">
                                 <rect key="frame" x="51" y="288" width="48" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText10" destination="BYZ-38-t0r" eventType="touchDown" id="0Zd-Dl-nZh"/>
                                     <action selector="cambioText10" destination="BYZ-38-t0r" eventType="editingChanged" id="X8u-O8-nSc"/>
@@ -181,7 +181,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="35g-UD-wrz">
                                 <rect key="frame" x="51" y="326" width="48" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText5" destination="BYZ-38-t0r" eventType="touchDown" id="ML5-2y-7Ki"/>
                                     <action selector="cambioText5" destination="BYZ-38-t0r" eventType="editingChanged" id="g64-Rt-H81"/>
@@ -190,7 +190,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OCg-gG-9Eg">
                                 <rect key="frame" x="209" y="100" width="47" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText2" destination="BYZ-38-t0r" eventType="touchDown" id="dQt-X2-UXA"/>
                                     <action selector="cambioText2" destination="BYZ-38-t0r" eventType="editingChanged" id="5JJ-zS-6GN"/>
@@ -199,7 +199,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oHc-Y8-Uik">
                                 <rect key="frame" x="209" y="138" width="47" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText1" destination="BYZ-38-t0r" eventType="touchDown" id="vbZ-ws-9cD"/>
                                     <action selector="cambioText1" destination="BYZ-38-t0r" eventType="editingChanged" id="wIb-1f-aS8"/>
@@ -208,7 +208,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A31-BH-cpk">
                                 <rect key="frame" x="209" y="176" width="47" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText050" destination="BYZ-38-t0r" eventType="touchDown" id="1Ub-h0-Drg"/>
                                     <action selector="cambioText050" destination="BYZ-38-t0r" eventType="editingChanged" id="G14-ZX-cHd"/>
@@ -217,7 +217,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pmx-hb-bHR">
                                 <rect key="frame" x="209" y="250" width="47" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText010" destination="BYZ-38-t0r" eventType="touchDown" id="0XF-lv-ucY"/>
                                     <action selector="cambioText010" destination="BYZ-38-t0r" eventType="editingChanged" id="2JS-Fd-DkB"/>
@@ -226,7 +226,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Kt-fo-9Q5">
                                 <rect key="frame" x="209" y="288" width="47" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText005" destination="BYZ-38-t0r" eventType="touchDown" id="snI-10-46B"/>
                                     <action selector="cambioText005" destination="BYZ-38-t0r" eventType="editingChanged" id="okm-cr-IBl"/>
@@ -235,7 +235,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i38-ZK-zCG">
                                 <rect key="frame" x="209" y="326" width="47" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText002" destination="BYZ-38-t0r" eventType="touchDown" id="AjF-cd-rCw"/>
                                     <action selector="cambioText002" destination="BYZ-38-t0r" eventType="editingChanged" id="g9n-rq-HCC"/>
@@ -397,7 +397,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fB5-mN-RQK">
                                 <rect key="frame" x="209" y="363" width="47" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText001" destination="BYZ-38-t0r" eventType="touchDown" id="YBx-v6-y3F"/>
                                     <action selector="cambioText001" destination="BYZ-38-t0r" eventType="editingChanged" id="Uyl-t7-JPg"/>
@@ -406,7 +406,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6ns-r0-Ge1">
                                 <rect key="frame" x="209" y="213" width="47" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="borrarText020" destination="BYZ-38-t0r" eventType="touchDown" id="xR2-V4-0hb"/>
                                     <action selector="cambioText020" destination="BYZ-38-t0r" eventType="editingChanged" id="2Mu-VM-kt3"/>
@@ -470,13 +470,13 @@
                                     <segue destination="fJt-vB-oGR" kind="presentation" modalTransitionStyle="flipHorizontal" id="YmZ-Mo-HJ5"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1mo-5H-YcG">
-                                <rect key="frame" x="51" y="213" width="48" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MDR-pN-UO6">
+                                <rect key="frame" x="75" y="28" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
-                                    <action selector="borrarText50" destination="BYZ-38-t0r" eventType="touchDown" id="vvZ-sP-Nri"/>
-                                    <action selector="cambioText50" destination="BYZ-38-t0r" eventType="editingChanged" id="2hd-Ta-clF"/>
+                                    <action selector="borrarVentas" destination="BYZ-38-t0r" eventType="touchDown" id="28v-5t-m0P"/>
+                                    <action selector="cambioVentas" destination="BYZ-38-t0r" eventType="editingChanged" id="udu-0c-TGw"/>
                                 </connections>
                             </textField>
                         </subviews>
