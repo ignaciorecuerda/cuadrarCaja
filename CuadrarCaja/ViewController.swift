@@ -458,7 +458,7 @@ class ViewController: UIViewController {
         self.unidad002.resignFirstResponder()
         self.unidad001.resignFirstResponder()
         
-        if
+        
     }
     
     @IBOutlet weak var textVentas: UITextField!
